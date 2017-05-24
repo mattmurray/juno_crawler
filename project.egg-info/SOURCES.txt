@@ -1,0 +1,13 @@
+setup.py
+juno_crawler/__init__.py
+juno_crawler/items.py
+juno_crawler/middlewares.py
+juno_crawler/pipelines.py
+juno_crawler/settings.py
+juno_crawler/spiders/__init__.py
+juno_crawler/spiders/juno.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
