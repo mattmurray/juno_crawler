@@ -1,3 +1,0 @@
-[scrapy]
-settings = juno_crawler.settings
-
