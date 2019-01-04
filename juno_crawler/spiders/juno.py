@@ -36,7 +36,7 @@ class JunoSpider(Spider):
             track_div = release.xpath('.//div[@class="productlist_widget_tracklist_left"]')
             for tracks in track_div:
                 track_urls = tracks.xpath(
-                    './/div[@class="productlist_widget_tracklist_row"]/a[@ua_action="play"]/@href').extract()
+                    './/div[@class="productlist_widget_tracklist_row"]/a[@data-ua_action="play"]/@href').extract() # updated
                 track_name_list = tracks.xpath(
                     './/div[@class="productlist_widget_tracklist_row_text"]/span[@class="jq_highlight"]/text()').extract()
                 track_names = []
